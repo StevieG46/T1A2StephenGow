@@ -12,3 +12,5 @@ Contains Name linked to index.html and navigation bar containing, About, Blog & 
 
 ### Footer
 Contains quick contact and address alongside links to external sources, GitHub, Linkedin & Instagram.
+
+updating readme to test git
