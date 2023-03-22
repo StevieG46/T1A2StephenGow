@@ -1,0 +1,23 @@
+@import "../defaults/color";
+
+footer {
+    background-color: $primary-background;
+
+    p{
+        font-size: 1rem;
+        color: $secondary-color;
+        text-align: center;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 20%;
+
+        i{
+            color: $primary-color;
+        }
+    }
+   
+
+}

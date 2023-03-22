@@ -1,0 +1,23 @@
+@import "../defaults/color";
+
+header {
+    background-color: $primary-background;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    h1 {
+        color: $primary-color;
+        text-align: center;
+    }
+    
+    nav {
+        margin: 10px 20%;
+        a {color: $primary-color;
+       }
+       display: flex;
+        justify-content: space-between;
+    }
+}

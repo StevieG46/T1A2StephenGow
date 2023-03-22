@@ -1,0 +1,14 @@
+# T1A2 Stephen Gow Website
+
+## Overview
+This is a portfolio website for Stephen Gow demonstrating
+abilities and undersatdning of, html, css, sass.
+This is in development and the readme will contatint he features added to this website.
+
+## Componenets
+
+### Header
+Contains Name linked to index.html and navigation bar containing, About, Blog & Contact Pages.
+
+### Footer
+Contains quick contact and address alongside links to external sources, GitHub, Linkedin & Instagram.
