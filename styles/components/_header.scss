@@ -7,17 +7,23 @@ header {
     flex-direction: column;
     justify-content: center;
 
-
-    h1 {
+    .index{
+        
+        h1 {
         color: $primary-color;
-        text-align: center;
+         text-align: center;
+        }
+        text-decoration: none;
     }
-    
+
     nav {
         margin: 10px 20%;
-        a {color: $primary-color;
+        a {color: $secondary-color;
        }
        display: flex;
         justify-content: space-between;
+       :hover {
+        color: $primary-color;
+       }
     }
 }
