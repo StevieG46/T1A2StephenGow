@@ -1,0 +1,14 @@
+@import "../components/footer";
+@import "../components/header";
+@import "../components/main";
+
+main {
+    form {
+        .form-elements {
+            label {
+                font-size: 12px;
+                color: $secondary-color;
+            }
+        }
+    }
+}

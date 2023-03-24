@@ -1,0 +1,18 @@
+body {
+    margin:  0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    min-height: 100vh;
+    background-color: $secondary-background;
+
+    main{
+        // display: flex;
+        h2 {
+            color: $primary-background;
+            display: flex;
+            flex-direction: column;
+
+        }
+    }
+}
