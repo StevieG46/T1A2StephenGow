@@ -1,11 +1,21 @@
 @import "../defaults/color";
+@import "../defaults/breakpoint";
+
+@media  (max-width: $medium) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
 
 header {
     background-color: $primary-background;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
 
     .index{
         
@@ -25,5 +35,27 @@ header {
        :hover {
         color: $primary-color;
        }
+    }
+}
+
+@media  screen and (min-width: $medium) {
+    header {
+        margin-left: 2;
+        display: flex;
+        justify-content: space-between;
+        
+        h1 {
+            margin: 28px;
+        }
+        .nav-items {
+        display: flex;
+        // justify-content: flex-end;
+        align-items: end;
+
+            a {
+                float: left;
+                padding: 12px;
+            }
+        }
     }
 }

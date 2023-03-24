@@ -18,6 +18,24 @@ footer {
             color: $primary-color;
         }
     }
-   
+}
+
+@media screen and (min-width: $medium) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+
+        .footer-contact {
+            margin-left: 24px;
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: space-between;
+            a {
+                margin: 20px;
+            }
+        }
+    }
 
 }
