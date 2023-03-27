@@ -14,3 +14,18 @@ Contains Name linked to index.html and navigation bar containing, About, Blog & 
 Contains quick contact and address alongside links to external sources, GitHub, Linkedin & Instagram.
 
 updating readme to test git
+
+## Pages
+
+### Index
+
+
+### About
+This si where you will find information about me, including a link to current CV.
+
+### Blog
+Sectioned for intersting material, jobs and projects.
+
+### Contact
+Form for contacting.
+
