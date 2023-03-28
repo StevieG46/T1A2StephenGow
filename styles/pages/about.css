@@ -1,9 +1,10 @@
 footer {
-  background-color: #2E3047;
+  background-color: #EBDDD4;
 }
 footer p {
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  color: #707793;
+  color: #461b26;
   text-align: center;
 }
 footer .social-media {
@@ -12,10 +13,10 @@ footer .social-media {
   margin: 10px 20%;
 }
 footer .social-media i {
-  color: #3BBA9C;
+  color: #1B3B46;
 }
 footer .social-media i:hover {
-  color: rgba(67, 69, 92, 0.6);
+  color: rgba(235, 221, 212, 0.5843137255);
 }
 
 @media screen and (min-width: 769px) {
@@ -43,14 +44,15 @@ footer .social-media i:hover {
   }
 }
 header {
-  background-color: #2E3047;
+  background-color: #EBDDD4;
 }
 header .index {
   text-decoration: none;
 }
 header .index h1 {
-  color: #3BBA9C;
+  color: #1B3B46;
   text-align: center;
+  font-family: "Libre Baskerville", serif;
 }
 header nav {
   margin: 10px 20%;
@@ -58,11 +60,12 @@ header nav {
   justify-content: space-between;
 }
 header nav a {
-  color: #707793;
+  font-family: "Montserrat", sans-serif;
+  color: #461b26;
   text-decoration: none;
 }
 header nav :hover {
-  color: #3BBA9C;
+  color: #1B3B46;
   font-style: italic;
 }
 
@@ -91,10 +94,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  background-color: rgba(67, 69, 92, 0.6);
+  background-color: rgba(235, 221, 212, 0.5843137255);
 }
 body main h2 {
-  color: #2E3047;
+  color: #EBDDD4;
   display: flex;
   flex-direction: column;
 }
@@ -122,9 +125,10 @@ main .steve {
 }
 main .bio {
   margin: 24px;
-  border: 1px solid #3BBA9C;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #1B3B46;
   border-radius: 5%;
-  box-shadow: 2px 5px #3BBA9C;
+  box-shadow: 2px 5px #1B3B46;
   padding: 10px;
   animation: fadein 5s;
 }
@@ -138,13 +142,13 @@ main .link-cv a {
   font-size: 1.4em;
 }
 main .link-cv a:link {
-  color: #2E3047;
+  color: #1B3B46;
 }
 main .link-cv a:visited {
-  color: rgba(67, 69, 92, 0.6);
+  color: #461b26;
 }
 main .link-cv a:hover {
-  color: #3BBA9C;
+  color: #1B3B46;
   font-weight: bold;
 }
 

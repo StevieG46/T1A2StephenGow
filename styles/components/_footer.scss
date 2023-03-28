@@ -1,10 +1,12 @@
 @import "../defaults/color";
 @import "../defaults/breakpoint";
+@import "../defaults/font";
 
 footer {
     background-color: $primary-background;
 
     p{
+        font-family: $p-main;
         font-size: 1rem;
         color: $secondary-color;
         text-align: center;

@@ -1,5 +1,6 @@
 @import "../defaults/color";
 @import "../defaults/breakpoint";
+@import "../defaults/font";
 
 @media  (max-width: $medium) {
     header {
@@ -23,6 +24,7 @@ header {
         h1 {
         color: $primary-color;
          text-align: center;
+         font-family: $h-main;
         }
         text-decoration: none;
     }
@@ -33,7 +35,9 @@ header {
         display: flex;
         justify-content: space-between;
 
-        a {color: $secondary-color;
+        a {
+            font-family: $p-main;
+            color: $secondary-color;
             text-decoration: none;
        }
        

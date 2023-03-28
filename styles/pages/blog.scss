@@ -2,6 +2,8 @@
 @import "../components/header";
 @import "../components/main";
 @import "../defaults/breakpoint";
+@import "../defaults/color";
+@import "../defaults/font";
 
 
 main {
@@ -11,6 +13,10 @@ main {
 
     .title {
         text-align: center;
+        h2 {
+            font-family: $h-main;
+            color: $primary-color;
+        }
     }
 
 
@@ -27,7 +33,7 @@ main {
             border-radius: 3%;
             margin: 24px;
             padding: 24px;
-            max-width: 400px;
+            
 
             .blog-image {
                 display: flex;
@@ -37,7 +43,15 @@ main {
 
             .blog-text {
                 font-size: 1.1em;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                
+                p {
+                    font-family: $p-main;
+                    color: $primary-color
+                }
+                h3 {
+                    font-family: $h-main;
+                    color: $secondary-color;
+                }
             }
         }
     }

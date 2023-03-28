@@ -2,6 +2,7 @@
 @import "../components/header";
 @import "../components/main";
 @import "../defaults/breakpoint";
+@import "../defaults/font";
 
 main {
     display: flex;
@@ -21,12 +22,11 @@ main {
         0% {opacity: 0;}
         100% {opacity: 1;}
     }
-    @-webkit-keyframes fadein{
-        0% {opacity: 0;}
-        100% {opacity: 1;}
-    }
+   
     .bio {
         margin: 24px;
+        // color: $text-main;
+        font-family: $p-main;
         border: 1px solid $primary-color;
         border-radius: 5%;
         box-shadow: 2px 5px $primary-color;
@@ -45,10 +45,10 @@ main {
 
        }
        a:link {
-        color: $primary-background;
+        color: $primary-color;
        }
         a:visited {
-        color: $secondary-background;
+        color: $secondary-color;
         }
        a:hover {
         color: $primary-color;

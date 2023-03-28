@@ -1,9 +1,10 @@
 footer {
-  background-color: #2E3047;
+  background-color: #EBDDD4;
 }
 footer p {
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  color: #707793;
+  color: #461b26;
   text-align: center;
 }
 footer .social-media {
@@ -12,10 +13,10 @@ footer .social-media {
   margin: 10px 20%;
 }
 footer .social-media i {
-  color: #3BBA9C;
+  color: #1B3B46;
 }
 footer .social-media i:hover {
-  color: rgba(67, 69, 92, 0.6);
+  color: rgba(235, 221, 212, 0.5843137255);
 }
 
 @media screen and (min-width: 769px) {
@@ -43,14 +44,15 @@ footer .social-media i:hover {
   }
 }
 header {
-  background-color: #2E3047;
+  background-color: #EBDDD4;
 }
 header .index {
   text-decoration: none;
 }
 header .index h1 {
-  color: #3BBA9C;
+  color: #1B3B46;
   text-align: center;
+  font-family: "Libre Baskerville", serif;
 }
 header nav {
   margin: 10px 20%;
@@ -58,11 +60,12 @@ header nav {
   justify-content: space-between;
 }
 header nav a {
-  color: #707793;
+  font-family: "Montserrat", sans-serif;
+  color: #461b26;
   text-decoration: none;
 }
 header nav :hover {
-  color: #3BBA9C;
+  color: #1B3B46;
   font-style: italic;
 }
 
@@ -91,15 +94,52 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  background-color: rgba(67, 69, 92, 0.6);
+  background-color: rgba(235, 221, 212, 0.5843137255);
 }
 body main h2 {
-  color: #2E3047;
+  color: #EBDDD4;
   display: flex;
   flex-direction: column;
 }
 
+main h3 {
+  font-family: "Libre Baskerville", serif;
+  color: #461b26;
+  text-align: center;
+}
+main form {
+  margin: 24px;
+  border: 1.5px solid #461b26;
+}
+main form .form-elements {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  justify-content: center;
+}
 main form .form-elements label {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
   font-size: 12px;
-  color: #707793;
+  color: #461b26;
+  margin-bottom: 8px;
+}
+main form .form-elements .form-input {
+  width: 100%;
+  padding: 12px 0px;
+}
+main form .btn-div {
+  text-align: center;
+}
+main form .btn-div #submit {
+  border: none;
+  background-color: #1B3B46;
+  color: #EBDDD4;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }/*# sourceMappingURL=contact.css.map */
