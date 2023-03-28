@@ -1,0 +1,73 @@
+@import "../components/footer";
+@import "../components/header";
+@import "../components/main";
+@import "../defaults/breakpoint";
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    .steve {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 80%;
+    }
+
+    .bio {
+        margin: 24px;
+    }
+
+    .link-cv {
+        margin: 24px;
+       text-align: center;
+
+       a {
+        text-decoration: none;
+        font-size: 1.4em;
+
+       }
+       a:link {
+        color: $primary-background;
+       }
+        a:visited {
+        color: $secondary-background;
+        }
+       a:hover {
+        color: $primary-color;
+       }
+    }
+}
+
+@media screen and (min-width: $medium) {
+    main {
+        display: flex;
+        flex-direction: column;
+
+        .about {
+            display: flex;
+            flex-wrap: nowrap;
+            
+            .steve {
+                width: 40%;
+                margin-top: 5%;
+            }
+        }
+
+       
+    }
+}
+
+@media screen and (min-width: $large) {
+
+    main{
+        .about {
+
+            .bio{
+                justify-content: center;
+            }
+        }
+    }
+    
+}
