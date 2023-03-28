@@ -104,66 +104,41 @@ main {
   flex-direction: column;
   justify-content: center;
 }
-main .steve {
+main .title {
+  text-align: center;
+}
+main .blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .blog .blog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #2E3047;
+  border-radius: 3%;
+  margin: 24px;
+  padding: 24px;
+  max-width: 400px;
+}
+main .blog .blog-content .blog-image {
   display: flex;
   justify-content: center;
-  border-radius: 5%;
-  margin: auto;
-  width: 80%;
-  animation: fadein 5s;
+  width: 100%;
 }
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-main .bio {
-  margin: 24px;
-  border: 1px solid #3BBA9C;
-  border-radius: 5%;
-  box-shadow: 2px 5px #3BBA9C;
-  padding: 10px;
-  animation: fadein 5s;
-}
-main .link-cv {
-  margin: 24px;
-  text-align: center;
-  animation: fadein 3s, delay 3s;
-}
-main .link-cv a {
-  text-decoration: none;
-  font-size: 1.4em;
-}
-main .link-cv a:link {
-  color: #2E3047;
-}
-main .link-cv a:visited {
-  color: rgba(67, 69, 92, 0.6);
-}
-main .link-cv a:hover {
-  color: #3BBA9C;
-  font-weight: bold;
+main .blog .blog-content .blog-text {
+  font-size: 1.1em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 @media screen and (min-width: 769px) {
-  main {
+  main .blog {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
-  main .about {
-    display: flex;
-    flex-wrap: nowrap;
+  main .blog .blog-content {
+    width: 280px;
   }
-  main .about .steve {
-    width: 40%;
-    margin-top: 5%;
-  }
-}
-@media screen and (min-width: 1024px) {
-  main .about .bio {
-    justify-content: center;
-  }
-}/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=blog.css.map */

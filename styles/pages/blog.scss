@@ -1,0 +1,60 @@
+@import "../components/footer";
+@import "../components/header";
+@import "../components/main";
+@import "../defaults/breakpoint";
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+        text-align: center;
+    }
+
+
+    .blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+        .blog-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 1px solid $primary-background;
+            border-radius: 3%;
+            margin: 24px;
+            padding: 24px;
+            max-width: 400px;
+
+            .blog-image {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .blog-text {
+                font-size: 1.1em;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $medium) {
+   main {
+    .blog{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .blog-content {
+            width: 280px;
+        }
+    }
+   }
+    
+    
+}
