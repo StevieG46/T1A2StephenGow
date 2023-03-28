@@ -35,13 +35,20 @@ main {
             .form-input {
                 width: 100%;
                 padding: 12px 0px;
+                background-color: $secondary-background;
+                outline: none;
+                text-align: center;
+                font-family: $p-main;;
+            }
 
+            .form-input:focus {
+                border: 1px solid $primary-color;
             }
         }
 
         .btn-div {
             text-align: center;
-            
+    
                 #submit {
                 border: none;
                 background-color: $primary-color;
@@ -52,9 +59,66 @@ main {
                 display: inline-block;
                 font-size: 16px;
                 margin: 4px 2px;
-                
                 cursor:pointer;
+                }
+
+                #submit:hover {
+                    background-color: $secondary-color;
+                
                 }
         }
     }
+}
+
+@media screen and (min-width: $medium){
+    main {
+        
+        form {
+            .form-elements {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                label {
+                    text-align: left;
+                    font-size: 16px;
+                    margin-right: 48px;
+                }
+
+                .form-input {
+                    width: 70%;
+                    text-align: left;
+                    padding: 12px 24px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width: $large) {
+   
+   
+    main {
+        display: flex;
+        justify-content: space-around;
+        padding: 5%;
+
+        .contact {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 2em;
+        }
+
+        form {
+            width: 80%;
+
+            .form-elements {
+                label {
+                    font-size: 18px;
+                }
+            }
+        }   
+     }
 }
