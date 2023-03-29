@@ -1,0 +1,175 @@
+footer {
+  background-color: #EBDDD4;
+}
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #461b26;
+  text-align: center;
+}
+footer .social-media {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 20%;
+}
+footer .social-media i {
+  color: #1B3B46;
+}
+footer .social-media i:hover {
+  color: rgba(235, 221, 212, 0.5843137255);
+}
+
+@media screen and (min-width: 769px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .footer-contact {
+    margin-left: 24px;
+  }
+  footer .social-media {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer .social-media a {
+    margin: 20px;
+  }
+}
+@media (max-width: 769px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 24px;
+  }
+}
+header {
+  background-color: #EBDDD4;
+}
+header .index {
+  text-decoration: none;
+}
+header .index h1 {
+  color: #1B3B46;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+}
+header nav {
+  margin: 10px 20%;
+  display: flex;
+  justify-content: space-between;
+}
+header nav a {
+  font-family: "Montserrat", sans-serif;
+  color: #461b26;
+  text-decoration: none;
+}
+header nav :hover {
+  color: #1B3B46;
+  font-style: italic;
+}
+
+@media screen and (min-width: 769px) {
+  header {
+    margin-left: 2;
+    display: flex;
+    justify-content: space-between;
+  }
+  header h1 {
+    margin: 28px;
+  }
+  header .nav-items {
+    align-items: end;
+    margin: 24px;
+  }
+  header .nav-items a {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+  }
+}
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: rgba(235, 221, 212, 0.5843137255);
+}
+body main h2 {
+  color: #EBDDD4;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .title {
+  text-align: center;
+}
+main .title h2 {
+  font-family: "Libre Baskerville", serif;
+  color: #1B3B46;
+}
+main .blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+main .blog a {
+  text-decoration: none;
+}
+main .blog a:hover .blog-content {
+  box-shadow: 2px 2px #461b26;
+}
+main .blog .blog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #EBDDD4;
+  border-radius: 3%;
+  margin: 24px;
+  padding: 24px;
+}
+main .blog .blog-content .blog-image {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+main .blog .blog-content .blog-text {
+  font-size: 1.1em;
+}
+main .blog .blog-content .blog-text p {
+  font-family: "Montserrat", sans-serif;
+  color: #1B3B46;
+}
+main .blog .blog-content .blog-text h3 {
+  font-family: "Libre Baskerville", serif;
+  color: #461b26;
+}
+
+@media screen and (min-width: 769px) {
+  main .blog {
+    display: flex;
+    flex-direction: column;
+  }
+  main .blog .blog-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 5px #1B3B46;
+  }
+  main .blog .blog-content .blog-image {
+    width: 40%;
+    height: 40%;
+    margin: 24px;
+  }
+  main .blog .reverse {
+    flex-direction: row-reverse;
+    background-color: rgba(235, 221, 212, 0.5843137255);
+  }
+}/*# sourceMappingURL=blog-posts.css.map */
