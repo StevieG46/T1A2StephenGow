@@ -22,17 +22,17 @@ main {
 
     .blog {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
 
         a {
             text-decoration: none;
         }
-        a:hover {
-            .blog-content {
-                box-shadow: 2px 2px $secondary-color;
-            }
-        }
+        // a:hover {
+        //     .blog-content {
+        //         box-shadow: 2px 2px $secondary-color;
+        //     }
+        // }
       
         .blog-content {
             display: flex;
@@ -62,11 +62,16 @@ main {
                 }
             }
         }
-        
     }
 }
 
+#b2 {
+    background-color: $secondary-background;
+}
 
+#b4 {
+    background-color: $secondary-background;
+}
 
 @media screen and (min-width: $medium) {
    main {

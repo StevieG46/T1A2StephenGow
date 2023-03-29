@@ -16,7 +16,7 @@ footer .social-media i {
   color: #1B3B46;
 }
 footer .social-media i:hover {
-  color: rgba(235, 221, 212, 0.5843137255);
+  color: #461b26;
 }
 
 @media screen and (min-width: 769px) {
