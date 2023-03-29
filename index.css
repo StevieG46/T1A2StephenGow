@@ -96,16 +96,37 @@ body {
   min-height: 100vh;
   background-color: rgba(235, 221, 212, 0.5843137255);
 }
-body main h2 {
-  color: #EBDDD4;
+
+main {
   display: flex;
   flex-direction: column;
 }
+main .jumbotron {
+  margin-top: 0px;
+}
+main .jumbotron .homeimg {
+  height: 100%;
+  width: 100%;
+}
+main .home-text {
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  color: #461b26;
+}
 
-.homeimg {
-  height: 90%;
-  width: 90%;
-  border-radius: 20%;
-  display: flex;
-  justify-content: center;
+@media screen and (min-width: 769px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  main .jumbotron {
+    grid-column: 1/4;
+    grid-row: 1/4;
+  }
+  main .home-text {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    font-size: 1.2em;
+  }
 }/*# sourceMappingURL=index.css.map */

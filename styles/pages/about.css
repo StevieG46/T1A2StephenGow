@@ -96,11 +96,6 @@ body {
   min-height: 100vh;
   background-color: rgba(235, 221, 212, 0.5843137255);
 }
-body main h2 {
-  color: #EBDDD4;
-  display: flex;
-  flex-direction: column;
-}
 
 main {
   display: flex;
