@@ -131,6 +131,12 @@ main .blog {
   flex-direction: column;
   justify-content: center;
 }
+main .blog a {
+  text-decoration: none;
+}
+main .blog a:hover .blog-content {
+  box-shadow: 2px 5px #1B3B46;
+}
 main .blog .blog-content {
   display: flex;
   flex-direction: column;

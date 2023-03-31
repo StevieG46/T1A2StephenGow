@@ -25,6 +25,15 @@ main {
         flex-direction: column;
         justify-content: center;
       
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            .blog-content {
+                box-shadow: 2px 5px $primary-color;
+            }
+        }
+
         .blog-content {
             display: flex;
             flex-direction: column;
@@ -46,7 +55,8 @@ main {
                 
                 p {
                     font-family: $p-main;
-                    color: $primary-color
+                    color: $primary-color;
+                    
                 }
                 h3 {
                     font-family: $h-main;
