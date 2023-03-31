@@ -1,0 +1,20 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns="http://google.com/schemas/sitemap-mobile/1.0"
+        xmnls="http://google.com/schemas/sitemap-video/1.1"
+        xmlns="http://google.com/schemas/sitemap-image/1.1">
+        <url>
+            <loc>https://sgowt1a2.netlify.app</loc>
+        </url>
+        <url>
+            <loc>https://sgowt1a2.netlify.app/about</loc>
+        </url>
+        <url>
+            <loc>https://sgowt1a2.netlify.app/blog</loc>
+        </url>
+        <url>
+            <loc>https://sgowt1a2.netlify.app/blog-posts</loc>
+        </url>
+        <url>
+            <loc>https://sgowt1a2.netlify.app/contact</loc>
+        </url>
+</urlset>
