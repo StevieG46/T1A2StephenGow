@@ -35,6 +35,13 @@ footer .social-media i:hover {
     margin: 20px;
   }
 }
+@media screen and (min-width: 1024px) {
+  footer {
+    margin: 0px;
+    padding: 0 15% 0 15%;
+    justify-content: space-around;
+  }
+}
 @media (max-width: 769px) {
   header {
     display: flex;
@@ -86,6 +93,16 @@ header nav :hover {
     display: flex;
     justify-content: space-around;
     padding: 12px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header {
+    justify-content: flex-start;
+  }
+  header .nav-items {
+    width: auto;
+    flex-grow: 2;
+    margin-left: 64px;
   }
 }
 body {

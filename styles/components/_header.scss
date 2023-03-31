@@ -15,10 +15,6 @@
 header {
     background-color: $primary-background;
 
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-
     .index{
         
         h1 {
@@ -30,7 +26,6 @@ header {
     }
 
     nav {
-       
         margin: 10px 20%;
         display: flex;
         justify-content: space-between;
@@ -58,16 +53,26 @@ header {
             margin: 28px;
         }
         .nav-items {
-        // display: flex;
-        // justify-content: flex-end;
-        align-items: end;
-        margin: 24px;
+            align-items: end;
+            margin: 24px;
 
             a {
             display: flex;
             justify-content: space-around;
             padding: 12px;
             }
+        }
+    }
+}
+
+@media screen and (min-width:$large) {
+    header {
+        justify-content: flex-start;
+    
+        .nav-items {
+            width: auto;
+            flex-grow: 2;
+            margin-left: 64px;
         }
     }
 }

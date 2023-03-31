@@ -71,3 +71,22 @@ main {
     }
    }
 }
+
+@media screen and (min-width: $large){
+    main {
+        .blog {
+            .blog-content {
+                flex-direction: row;
+                min-width: 400px;
+                .blog-image {
+                    width: 50%;
+                    height: 50%;
+                }
+                .blog-text{
+                    margin-top: 0px;
+                    margin-left: 24px;
+                }
+            }
+        }
+    }
+}

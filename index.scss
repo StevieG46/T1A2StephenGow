@@ -32,9 +32,21 @@ main{
         grid-row: 1/4;
         }
         .home-text {
-        grid-row: 1/2;
+        grid-row: 2/3;
         grid-column: 3/4;
         font-size: 1.2em;
+        text-shadow: 2px 2px 8px $primary-background;
+        padding-right: 24px;
         }
+    }
+}
+
+@media screen and (min-width: $large) {
+    main {
+        .home-text {
+            grid-row: 1/2;
+            grid-column: 3/4;
+            font-size: 1.4em;
+            }
     }
 }

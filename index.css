@@ -51,6 +51,16 @@ header nav :hover {
     padding: 12px;
   }
 }
+@media screen and (min-width: 1024px) {
+  header {
+    justify-content: flex-start;
+  }
+  header .nav-items {
+    width: auto;
+    flex-grow: 2;
+    margin-left: 64px;
+  }
+}
 footer {
   background-color: #EBDDD4;
 }
@@ -86,6 +96,13 @@ footer .social-media i:hover {
   }
   footer .social-media a {
     margin: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    margin: 0px;
+    padding: 0 15% 0 15%;
+    justify-content: space-around;
   }
 }
 body {
@@ -125,8 +142,17 @@ main .home-text {
     grid-row: 1/4;
   }
   main .home-text {
-    grid-row: 1/2;
+    grid-row: 2/3;
     grid-column: 3/4;
     font-size: 1.2em;
+    text-shadow: 2px 2px 8px #EBDDD4;
+    padding-right: 24px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main .home-text {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    font-size: 1.4em;
   }
 }/*# sourceMappingURL=index.css.map */
