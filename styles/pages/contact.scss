@@ -15,8 +15,6 @@ main {
     form {
         margin: 24px;
         border: 1.5px solid $secondary-color;
-        // display: flex;
-        // flex-direction: column;
 
         .form-elements {
             display: flex;
@@ -37,12 +35,14 @@ main {
                 padding: 12px 0px;
                 background-color: $secondary-background;
                 outline: none;
+                border: .5px outset $secondary-color;
+                border-radius: 5px;
                 text-align: center;
                 font-family: $p-main;;
             }
 
             .form-input:focus {
-                border: 1px solid $primary-color;
+                border: 1.5px solid $primary-color;
             }
         }
 
@@ -59,7 +59,7 @@ main {
                 display: inline-block;
                 font-size: 16px;
                 margin: 4px 2px;
-                cursor:pointer;
+                cursor: pointer;
                 }
 
                 #submit:hover {
@@ -97,8 +97,6 @@ main {
 }
 
 @media screen and (min-width: $large) {
-   
-   
     main {
         display: flex;
         justify-content: space-around;

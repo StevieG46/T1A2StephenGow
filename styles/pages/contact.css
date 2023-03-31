@@ -141,11 +141,13 @@ main form .form-elements .form-input {
   padding: 12px 0px;
   background-color: rgba(235, 221, 212, 0.5843137255);
   outline: none;
+  border: 0.5px outset #461b26;
+  border-radius: 5px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 main form .form-elements .form-input:focus {
-  border: 1px solid #1B3B46;
+  border: 1.5px solid #1B3B46;
 }
 main form .btn-div {
   text-align: center;
